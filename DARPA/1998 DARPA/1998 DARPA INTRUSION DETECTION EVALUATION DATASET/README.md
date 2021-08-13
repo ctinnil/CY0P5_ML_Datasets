@@ -1,6 +1,8 @@
-# Sample Data
+# 1998 DARPA INTRUSION DETECTION EVALUATION DATASET
 
-A sample of the network traffic and audit logs that were used for evaluating systems. These data were first made available in February 1998.
+This are the datasets made available by the MIT Lincoln Laboratory in 1998 for Intrusion Detection Evaluation in an off-line and a real-time scenario.
+
+You may find more details under the reference link.
 
 ## Reference 
 
