@@ -1,0 +1,166 @@
+README 3week
+------------
+Seven weeks of training data are being created at
+MIT Lincoln Laboratory and provided as part
+of the 1998 DARPA Intrusion Detection Evaluation. 
+The first two weeks should be considered as "alpha"
+training data collected as the simulation becomes fully
+instantiated and reaches a steady state. This data should
+be used for initial training and development of intrusion
+detection systems. The final five weeks of training data
+will be similar to test data and should be used for final 
+training and development of intrusion detection
+systems. These five weeks of data will include more types
+of background traffic and attack variants than the first 
+two weeks of data. These five weeks of data will
+also be generated using the same procedures
+that will be used with the test data.
+
+An intermittent problem was noticed for weeks three to 
+five of training data. Web servers located outside the
+simulated government installation were often crashing 
+early in the day. This resulted in many HTTP sessions with no
+web content being transmitted. This problem was fixed 
+during the last few days of week six. Although this 
+problem occurs in real world data, it doesn't occur
+with such high frequency. We therefore decided to provide
+an extra week of training data (week seven) to make sure
+anomaly detection systems are provided with more than a week
+of training data with all web traffic present. 
+
+The first week of training data starts with a large amount
+of background traffic and an average of two attacks per day. During
+the first and second week, services, attacks,  
+and additional traffic types are added until traffic patterns 
+reach a final steady state by the
+end of the second week. Following the second week, the final
+five weeks of training data remain similar to each other
+with regard to attack types and background traffic except for
+the many empty HTTP connections in weeks three through six.
+The seven weeks of data include more than
+150 instances of more than 20 different attack types.
+The first three weeks of training data include 34 instances 
+of 23 different attack types.
+
+BSM and tcpdump data collection normally begins at 8 AM each
+weekday and ends 6 AM on the following day, providing
+22 hours of data each day.  These start and stop times are not
+exact, but vary from day to day. 
+Data collected on each day are provided in separate directories.
+Data starting on Monday through Friday is placed in separate 
+directories named Monday, Tuesday, Wednesday, Thursday, Friday or
+named using these weekday names.
+Data was collected continuously on a real network which simulated
+more than 1000 virtual hosts and more than 700 virtual users. Auditing and
+tcpdump is turned off at 6 AM each morning when all machines are
+taken down and re-booted. During this down time, a full backup 
+is made for the Solaris host named pascal using ufsdump and preparations
+are made for the next day's simulation run.
+Auditing and tcpdump is then restarted
+at roughly 8 AM each morning. The state of all simulation 
+machines including pascal (the Solaris machine being audited) should 
+not change substantially during down time and no attacks or attack setups
+on these machines are performed during down time.
+
+Pascal dump files created using ufsdump are not provided on
+the Lincoln web site after week one of training  because 
+they consume too much disk space
+and because very few participants in the 1998 evaluation are using this
+data.  These dump files will be provided on CDROM, 
+but only to those participants who explicitly request these CDROM's.
+Send requests for pascal ufsdump CDROM's to 
+darpa-intrusion-eval-admin@sst.ll.mit.edu.
+CDROMS containing tcpdump and BSM data are mailed out roughly a week after
+the data is posted to the Lincoln web site.
+
+The format of the distribution files was changed for week three. 
+Data files for each day were split up into smaller pieces  
+to reduce download times by allowing participants to selectively
+download only data they require, and also to allow us to
+separately update list and attack description files to correct any
+errors we or others discover. As noted below, six separate files are
+now provided for each day. These are the following:
+
+	1. BSM list file
+	2. TCPDUMP list file
+	3. TCPDUMP data file
+	4. binary BSM data file
+	5. ascii BSM praudit file
+	6. PS monitor output file 
+
+Please read all the README files in the subdirectories.
+
+Files in this directory 
+===========================
+README	     - this file describing the contents of all files
+attacks.html - describes all attacks for this week and past weeks
+
+---------------------------------------------------------------------------
+3weekdoc.tar - a tar file containing descriptive information for this week
+---------------------------------------------------------------------------
+README.formats	- describes the format of list files which list all 
+		  network sessions
+hosts.memo	- lists ip addresses, host names, and operating systems of hosts
+network.ps	- a postscript picture of the simulation network including 
+		  ip addresses of important hosts
+
+bin/ - contains sniffer, dump, and psmonitor shell scripts 
+    README.bsm     - describes contents of bin directory
+    run_sniffer    - shell script used to start sniffing on solomon 
+    run_psmonitor  - shell script to run ps periodically on pascal 
+		     and store output in psmonitor log file
+    run_dump       - shell script used to create system dump of 
+		     Solaris from pascal 
+
+config/ - contains bsm and pascal configuration information 
+    README.bsm 	   - describes the bsm configuration files used in this simulation 
+    README.pascal  - describes how to obtain configuration information for the
+		     Solaris workstation named pascal which runs BSM auditing 
+    audit_class	   - pascal BSM configuration file
+    audit_control  - pascal BSM configuration file
+    audit_event    - pascal BSM configuration file
+    audit_startup  - shell script used to make sure BSM auditing on pascal
+		     includes important system background processes 
+    audit_user     - pascal BSM configuration file
+    hosts.equiv    - /etc/hosts.equiv file listing trusted hosts for pascal
+    services       - /etc/services file for pascal
+
+-------------------------------------------------------------------------------
+monday/
+tuesday/
+wednesday/
+thursday/
+friday/ - directories containing bsm and tcp dump data, attack information, 
+             and list files for each day
+-------------------------------------------------------------------------------
+the following six files are provided for each day  
+
+    bsm.list.gz - The list file for the bsm data which indicates where all
+		  sessions begin and end and labels attacks. The format 
+		  for this file is described in "README.formats." 
+
+    bsm.gz - The actual raw binary bsm audit data for this day.
+		    Information describing how BSM was configured is
+		    provided in the ./config directory.
+
+    praudit.gz - The ascii BSM audit data created by running the
+			binary bsm audit data through praudit.
+
+    psmonitor.gz - The results of running the UNIX ps command
+			  every 60 seconds the Solaris host
+			  where auditing was turned on (pascal). 
+			  The shell script that created this file 
+			  is provided in ./bin/run_psmonitor
+
+    tcpdump.gz - The raw tcpdump data from the sniffer in this simulation.
+		 The shell script used to start the sniffer is provided
+		 in ./bin/run_sniffer.
+
+    tcpdump.list.gz - The list file for tcpdump data which indicates where
+		      all sessions begin and end and labels attacks. The 
+		      format for this file is described in "README.formats"
+
+
+--------------------------------------------------------------------------------
+
+(last updated Aug 17, 1998)
