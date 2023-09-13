@@ -17,6 +17,8 @@ Cybersecurity encompasses a wide range of topics and issues, and there are vario
    The NSL-KDD dataset is a modified version of the well-known KDD Cup 1999 dataset, addresing issues such as redundancy and balance. The new dataset is reduced to the uniq values, and balanced representation of the different types of the described attacks.
    - [NSL-KDD Dataset](http://www.unb.ca/cic/datasets/nsl.html)
 
+### 4. **CTU-13**:
+
 
 
 
@@ -52,7 +54,6 @@ y. **UNSW-NB15**:
    - Description: VirusTotal provides a dataset containing various information about files, URLs, and domains. It's useful for research related to malware analysis and threat intelligence.
    - Link: [VirusTotal Public API](https://developers.virustotal.com/reference#getting-started)
 
-Please note that the availability and specifics of these datasets may change over time, and it's important to review the dataset documentation and terms of use before using them for research or analysis. Additionally, new datasets may have emerged since my last knowledge update, so it's a good idea to explore cybersecurity research forums and websites for the latest datasets in the field.
+*Please note that the availability and specifics of these datasets may change over time, and it's important to review the dataset documentation and terms of use before using them for research or analysis.*
 
-## DARPA 
 
