@@ -2,7 +2,7 @@
 
 # Main datasets used in cybersecurity 
 
-The cybersecurity field is vast, encompassing a wide range of topics and challenges. The communiity provides a selection of datasets designed for specific research and analysis within the realm of cybersecurity. Here are some key datasets used in cybersecurity, along with brief descriptions and links (as for my study):
+The cybersecurity field is vast, encompassing a wide range of topics and challenges. The community provides a selection of datasets designed for specific research and analysis within the realm of cybersecurity. Here are some key datasets used in cybersecurity, along with brief descriptions and links (as for my study):
 
 ### 1. **DARPA Intrusion Detection Data**:
    The DARPA Intrusion Detection Evaluation datasets were collected as part of the 1998 and 1999 DARPA intrusion detection evaluations. These datasets contain a variety of network traffic data for evaluating intrusion detection systems.
