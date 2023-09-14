@@ -16,6 +16,7 @@ Cybersecurity encompasses a wide range of topics and issues, and there are vario
 ### 3. **NSL-KDD**:
    The NSL-KDD dataset is a modified version of the well-known KDD Cup 1999 dataset, addresing issues such as redundancy and balance. The new dataset is reduced to the uniq values, and balanced representation of the different types of the described attacks.
    - [NSL-KDD Dataset](http://www.unb.ca/cic/datasets/nsl.html)
+   - [Shortcut to downloads](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/NSL-KDD.zip)
 
 ### 4. **CTU-13**:
 
@@ -24,7 +25,7 @@ Cybersecurity encompasses a wide range of topics and issues, and there are vario
 ### 6. **CIC-IDS2017**:
    The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data specific to machine learning for intrusion detection system (IDS) research, describing various attack scenarios, such as DoS, DDoS, and port scanning.
 - [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
-- [Shorcut to downloads](http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/)
+- [Shortcut to downloads](http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/)
 
 y. **UNSW-NB15**:
    - Description: The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
