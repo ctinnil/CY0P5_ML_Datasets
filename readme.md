@@ -21,6 +21,9 @@ Cybersecurity encompasses a wide range of topics and issues, and there are vario
 ### 4. **CTU-13**:
 
 ### 5. **ISCXIDS2012**:
+   The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
+- [ISCXIDS2012 Dataset](https://www.unb.ca/cic/datasets/ids.html)
+- [Shortcut to downloads](http://205.174.165.80/CICDataset/ISCX-IDS-2012/Dataset/)
 
 ### 6. **CIC-IDS2017**:
    The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data specific to machine learning for intrusion detection system (IDS) research, describing various attack scenarios, such as DoS, DDoS, and port scanning.
