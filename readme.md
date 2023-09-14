@@ -1,6 +1,8 @@
-# Main datasets used in Cybersecurity 
+*Before diving into the main datasets, it's important to understand what cybersecurity is and why these datasets are crucial for keeping our digital world safe. In today's interconnected world, cybersecurity threats are a serious concern for individuals, businesses, and governments alike. From data breaches to cyber attacks, cybercrime is on the rise. That's why it's essential to have access to reliable and up-to-date cybersecurity datasets that can help us identify and prevent potential threats.*
 
-Cybersecurity encompasses a wide range of topics and issues, and there are various datasets available for different aspects of cybersecurity research and analysis. Below are some of the main datasets used in cybersecurity, along with brief descriptions and links (as of my research):
+# Main datasets used in cybersecurity 
+
+The field of cybersecurity covers a broad spectrum of subjects and challenges, and it offers a variety of datasets tailored to specific areas of research and analysis within the cybersecurity domain. Below are some of the primary datasets used in cybersecurity, along with brief descriptions and links (as of my research):
 
 ### 1. **DARPA Intrusion Detection Data**:
    The DARPA Intrusion Detection Evaluation datasets were collected as part of the 1998 and 1999 DARPA intrusion detection evaluations. These datasets contain a variety of network traffic data for evaluating intrusion detection systems.
@@ -14,21 +16,25 @@ Cybersecurity encompasses a wide range of topics and issues, and there are vario
    - [Kaggle version](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data)
 
 ### 3. **NSL-KDD**:
-   The NSL-KDD dataset is a modified version of the well-known KDD Cup 1999 dataset, addresing issues such as redundancy and balance. The new dataset is reduced to the uniq values, and balanced representation of the different types of the described attacks.
+   The NSL-KDD dataset is a modified version of the well-known KDD Cup 1999 dataset, addressing issues such as redundancy and balance. The new dataset is reduced to the unique values and balanced representation of the different types of the described attacks.
    - [NSL-KDD Dataset](http://www.unb.ca/cic/datasets/nsl.html)
    - [Shortcut to downloads](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/NSL-KDD.zip)
 
 ### 4. **CTU-13**:
+   The CTU-13 dataset is particularly notable for its comprehensive representation of botnet traffic, allowing researchers to analyze and develop detection methods for botnet-related activities. CTU-13 features traffic data related to a total of 7 distinct botnets, featuring a mix of both real-world botnet and user-simulated traffic in a university-like environment.
+   - [CTU-13 Dataset](https://www.stratosphereips.org/datasets-ctu13)
 
 ### 5. **ISCXIDS2012**:
    The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
-- [ISCXIDS2012 Dataset](https://www.unb.ca/cic/datasets/ids.html)
-- [Shortcut to downloads](http://205.174.165.80/CICDataset/ISCX-IDS-2012/Dataset/)
+   - [ISCXIDS2012 Dataset](https://www.unb.ca/cic/datasets/ids.html)
+   - [Shortcut to downloads](http://205.174.165.80/CICDataset/ISCX-IDS-2012/Dataset/)
 
 ### 6. **CIC-IDS2017**:
    The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data specific to machine learning for intrusion detection system (IDS) research, describing various attack scenarios, such as DoS, DDoS, and port scanning.
-- [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
-- [Shortcut to downloads](http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/)
+   - [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
+   - [Shortcut to downloads](http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/)
+
+
 
 y. **UNSW-NB15**:
    - Description: The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
