@@ -1,0 +1,19 @@
+TShark (Wireshark) 4.1.0 (Git commit e08da591eebe).
+
+Copyright 1998-2023 Gerald Combs <gerald@wireshark.org> and contributors.
+Licensed under the terms of the GNU General Public License (version 2 or later).
+This is free software; see the file named COPYING in the distribution. There is
+NO WARRANTY; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiled (64-bit) using Clang 14.0.3 (clang-1403.0.22.14.1), with GLib 2.76.4,
+with libpcap, without POSIX capabilities, with zlib 1.2.11, with PCRE2, without
+Lua, with GnuTLS 3.8.1 and PKCS #11 support, with Gcrypt 1.10.2, with Kerberos
+(MIT), with MaxMind, with nghttp2 1.55.1, without brotli, without LZ4, without
+Zstandard, without Snappy, with libxml2 2.9.13, with libsmi 0.5.0, with binary
+plugins, release build.
+
+Running on macOS 13.5.2, build 22G91 (Darwin 22.6.0), with Intel(R) Core(TM)
+i5-8259U CPU @ 2.30GHz (with SSE4.2), with 8192 MB of physical memory, with GLib
+2.78.0, with libpcap 1.10.1, with zlib 1.2.11, with PCRE2 10.42 2022-12-11, with
+c-ares 1.19.1, with GnuTLS 3.8.1, with Gcrypt 1.10.2, with nghttp2 1.56.0, with
+libsmi 0.5.0, with LC_TYPE=UTF-8, binary plugins supported.
