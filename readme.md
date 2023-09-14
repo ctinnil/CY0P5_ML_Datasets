@@ -22,19 +22,9 @@ Cybersecurity encompasses a wide range of topics and issues, and there are vario
 ### 5. **ISCXIDS2012**:
 
 ### 6. **CIC-IDS2017**:
-
-
-
-
-
-
-
-     
-X. **CICIDS2017**:
-   - Description: The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data for intrusion detection system (IDS) research. It includes various attack scenarios, such as DoS, DDoS, and port scanning.
-   - Link: [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
-
-
+   The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data specific to machine learning for intrusion detection system (IDS) research, describing various attack scenarios, such as DoS, DDoS, and port scanning.
+- [CICIDS2017 Dataset](https://www.unb.ca/cic/datasets/ids-2017.html)
+- [Shorcut to downloads](http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/)
 
 y. **UNSW-NB15**:
    - Description: The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
