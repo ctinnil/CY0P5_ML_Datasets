@@ -9,7 +9,7 @@ icmp_packets=0
 if [ $# -ne 1 ]; then
     echo "Usage: $0 /path/to/pcap/files"
     exit 1
-fi
+fi  
 
 # Store the directory path provided as an argument
 pcap_dir="$1"
@@ -24,20 +24,21 @@ fi
 for file in "$pcap_dir"/*.pcap; do
     echo "File: $file"
     
-    # Use tshark to display packet statistics and filter by protocol
+    # Use tshark to count packets and filter by protocol
     packet_stats=$(tshark -r "$file" -qz io,phs)
-    
-    # Extract and sum the packet counts for each protocol
-    total=$(echo "$packet_stats" | grep "Packets:" | awk '{print $2}')
+
+    # Extract and accumulate the total packet count
+    total=$(echo "$packet_stats" | grep "frames:" | awk -F ":" '{sum+=$2} END {print sum}')
     total_packets=$((total_packets + total))
 
-    tcp=$(echo "$packet_stats" | grep "TCP:" | awk '{print $2}')
+    # Extract and accumulate protocol-specific packet counts (TCP, UDP, ICMP)
+    tcp=$(echo "$packet_stats" | grep "tcp.segments" | awk -F ":" '{sum+=$2} END {print sum}')
     tcp_packets=$((tcp_packets + tcp))
 
-    udp=$(echo "$packet_stats" | grep "UDP:" | awk '{print $2}')
+    udp=$(echo "$packet_stats" | grep "udp" | awk -F ":" '{sum+=$2} END {print sum}')
     udp_packets=$((udp_packets + udp))
 
-    icmp=$(echo "$packet_stats" | grep "ICMP:" | awk '{print $2}')
+    icmp=$(echo "$packet_stats" | grep "icmp" | awk -F ":" '{sum+=$2} END {print sum}')
     icmp_packets=$((icmp_packets + icmp))
     
     # Display packet counts for this file
