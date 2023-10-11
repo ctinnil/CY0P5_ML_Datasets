@@ -19,11 +19,12 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  The NSL-KDD dataset is a modified version of the well-known KDD Cup 1999 dataset, addressing issues such as redundancy and balance. The new dataset is reduced to the unique values and balanced representation of the different types of the described attacks.
  - [NSL-KDD Dataset](http://www.unb.ca/cic/datasets/nsl.html)
  - [Shortcut to downloads](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/NSL-KDD.zip)
- - [Kaggle version](https://www.kaggle.com/datasets/galaxyh/kdd-cup-1999-data)
+ - [Kaggle version](https://www.kaggle.com/datasets/hassan06/nslkdd)
 
 ### 4. **CTU-13**:
  The CTU-13 dataset is particularly notable for its comprehensive representation of botnet traffic, allowing researchers to analyze and develop detection methods for botnet-related activities. CTU-13 features traffic data related to a total of 7 distinct botnets, featuring a mix of both real-world botnet and user-simulated traffic in a university-like environment.
  - [CTU-13 Dataset](https://www.stratosphereips.org/datasets-ctu13)
+ - [Kaggle version](https://www.kaggle.com/datasets/dhoogla/ctu13)
 
 ### 5. **ISCXIDS2012**:
  The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
