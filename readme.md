@@ -43,6 +43,9 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [AWs S3](s3://cse-cic-ids2018/)
  - [Kaggle version](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)
 
+ CIDDS-001
+ CIDDS-002
+
 ### 8. **Kyoto2026+**:
  The Kyoto (Kyoto 2006+) dataset, also known as the Kyoto University Honeypot Dataset, is a collection of network traffic data specifically designed for cybersecurity research, with a focus on honeypot-based intrusion detection and analysis.
  - [Kyoto 2006+ Dataset](https://datasetsearch.research.google.com/search?ref=TDJjdk1URnFibDg0TTNCNmVRPT0%3D&query=Kyoto%202006%2B&docid=L2cvMTFqbl84M3B6eQ%3D%3D)
