@@ -43,10 +43,16 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [AWs S3](s3://cse-cic-ids2018/)
  - [Kaggle version](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)
 
- CIDDS-001
- CIDDS-002
-
-### 8. **Kyoto2026+**:
+  ### 8. **CIDDS-001 & CIDDS-002**:
+ The colaboorative project between the Communications Security Establishment (CSE) and the Canadian Institute for Cybersecurity (CIC) resulted in a comprehensive dataset, describing various attack scenarios, such as DoS, DDoS, and port scanning, that can be used for machine learning intrusion detection system (IDS) research.
+ - [CIDDS - COBURG INTRUSION DETECTION DATA SETS](https://www.hs-coburg.de/forschung/forschungsprojekte-oeffentlich/informationstechnologie/cidds-coburg-intrusion-detection-data-sets.html)
+ - [Github](https://github.com/markusring/CIDDS)
+ - [Shortcut to download CIDDS-001](https://www.hs-coburg.de/fileadmin/hscoburg/WISENT-CIDDS-001.zip)
+ - [Shortcut to download CIDDS-002](https://www.hs-coburg.de/fileadmin/hscoburg/WISENT-CIDDS-002.zip)
+ - [CIDDS-001 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds001)
+ - [CIDDS-002 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds002)
+ 
+ ### 9. **Kyoto2026+**:
  The Kyoto (Kyoto 2006+) dataset, also known as the Kyoto University Honeypot Dataset, is a collection of network traffic data specifically designed for cybersecurity research, with a focus on honeypot-based intrusion detection and analysis.
  - [Kyoto 2006+ Dataset](https://datasetsearch.research.google.com/search?ref=TDJjdk1URnFibDg0TTNCNmVRPT0%3D&query=Kyoto%202006%2B&docid=L2cvMTFqbl84M3B6eQ%3D%3D)
  - [Kyoto Data](https://www.takakura.com/Kyoto_data/)
