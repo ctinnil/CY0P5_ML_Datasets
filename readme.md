@@ -100,3 +100,49 @@ y. **UNSW-NB15**:
 *Please note that the availability and specifics of these datasets may change over time, and it's important to review the dataset documentation and terms of use before using them for research or analysis.*
 
 
+# Intrusion Detection System (IDS) Public Datasets Benchmarking
+
+In cybersecurity, the design, development, and implementation of effective Intrusion Detection Systems (IDS) are important for safeguarding IT&C infrastructures from unauthorized access, data breaches, and various forms of malicious activities. The selection of an appropriate ML/DL algorithm plays a essential role in ensuring the security and integrity of protected systems.
+
+But before we can dive in the development of a new-edge algorithm, we shoud have the appropriate data, that needs to be studied and analysed in order to undestant the reality and challenges of our ML problem. In accordance with this paradigm, we chosed to study the early created datasets designed for IDS systems in order to derive leasons learn for feature dataset development.
+
+This experiment aims to comprehensively evaluate the performance of different ML and DL algorithms on a variety of datasets, encompassing a wide range of network traffic scenarios. The datasets used for this analysis include well-known benchmark datasets such as KDD, NSL-KDD, CTU-13, ISCXIDS2012, CIC-IDS2017, CSE-CIC-IDS2018, CIDDS-001/CIDDS-002, and Kyoto 2006+. Each dataset represents a distinct set of challenges and characteristics, making this evaluation both diverse and insightful.
+
+The experiment is divided into three main phases:
+
+1. **Data Acquisition and Preprocessing**:
+ - In this phase, we acquire the selected datasets from reputable sources, ensuring the integrity and accuracy of the data.
+ - Data preprocessing tasks include handling missing values, selecting the most relevant features using feature selection techniques, normalizing the data, and, if necessary, performing feature engineering to enhance the dataset's suitability for machine learning.
+
+2. **Algorithm Evaluation**:
+ - We evaluate the performance of a range of ML/DL algorithms on each dataset. The chosen algorithms include baseline methods like ZeroRule and OneRule, traditional machine learning approaches like Naive Bayes and Random Forest, as well as some of the most used anomaly detection deep learning algorithms.
+ - Cross-validation is applied to ensure the robustness of our results. Performance metrics such as precision, variance, and Mean Absolute Error (MAE) are calculated for each algorithm and dataset.
+
+3. **Results and Insights**:
+ - The results of this evaluation provide valuable insights into the strengths and weaknesses of different IDS algorithms under various conditions.
+ - We analyze the performance of algorithms on both the original datasets and balanced datasets to address the challenge of class imbalance in intrusion detection.
+ - Observations and additional details regarding the algorithms' performance are documented, providing a comprehensive overview of their behavior.
+
+By conducting this experiment, we aim to contribute to the understanding of cyber domain dataset generation. The findings will assist in making informed decisions when developing a cybersecurity AI application, by deriving necesary steps and procedures in selecting the appropriate learning data.
+
+The following Jupyter notebooks will provide a detailed walkthrough of the experiments, including code snippets, visualizations, and discussions of the results:
+1. [KDD99-BM](benchmarking_IDS_datasets/1.1-2.1_Benchmarking_existing_IDS_datasets_KDD99_v3.0.ipynb)
+2. [NSL-KDD-BM](benchmarking_IDS_datasets/1.2-2.2_Benchmarking_existing_IDS_datasets_NSL-KDD_v1.0.ipynb)
+3. [CTU-13-BM](benchmarking_IDS_datasets/1.3-2.3_Benchmarking_existing_IDS_datasets_CTU_13_v2_0.ipynb)
+4. [ISCXIDS2012-BM](benchmarking_IDS_datasets/1.4-2.4_Benchmarking_existing_IDS_datasets_ISCXIDS2012_v2_0.ipynb)
+5. [CIC-IDS2017-BM](benchmarking_IDS_datasets/1.5-2.5_Benchmarking_existing_IDS_datasets_CICIDS2017_v1_0.ipynb)
+6. [CSE-CIC-IDS2018-BM](benchmarking_IDS_datasets/1.6-2.6_Benchmarking_existing_IDS_datasets_CSE_CIC_IDS2018_v2_0.ipynb)
+7. [CIDDS-001-BM](benchmarking_IDS_datasets/1.7-2.7_Benchmarking_existing_IDS_datasets_CIDDS_001_v2_0.ipynb)
+8. [CIDDS-002-BM](benchmarking_IDS_datasets/1.8-2.8_Benchmarking_existing_IDS_datasets_CIDDS_002_v1_0.ipynb)
+9. [Kyoto2026+-BM](benchmarking_IDS_datasets/1.9-2.9_Benchmarking_existing_IDS_datasets_Kyoto2026+_v1.0.ipynb)
+
+The results are also saved under the pickle files mentioned below:
+1. [KDD99-BM](benchmarking_results/kdd_results.pkl)
+2. [NSL-KDD-BM](benchmarking_results/nsl_kdd_results.pkl)
+3. [CTU-13-BM](benchmarking_results/ctu13_results.pkl)
+4. [ISCXIDS2012-BM](benchmarking_results/iscxids2012_results.pkl)
+5. [CIC-IDS2017-BM](bbenchmarking_results/cicids2017_results.pkl)
+6. [CSE-CIC-IDS2018-BM](benchmarking_results/csecicids2018_results.pkl)
+7. [CIDDS-001-BM](benchmarking_results/cidds001_results.pkl)
+8. [CIDDS-002-BM](benchmarking_results/cidds002_results.pkl)
+9. [Kyoto2026+-BM](benchmarking_results/kyoto_results.pkl)
