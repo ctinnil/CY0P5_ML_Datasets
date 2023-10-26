@@ -1,6 +1,6 @@
 ## **Data Science Cheat Sheet**
 
-
+![IMG_1827](https://github.com/ctinnil/CY0P5_ML_Datasets/assets/69745175/97e7444a-5d01-476d-b389-a9e323b36740)
 
 ```mermaid
 graph LR
