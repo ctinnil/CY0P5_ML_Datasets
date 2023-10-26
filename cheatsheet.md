@@ -142,7 +142,8 @@ graph LR
 
 ## Details on individual phases 
 
-<a id="1">\[1]\</a>Data Collection & Cleaning
+<a id="1">\[1]\</a>
+Data Collection & Cleaning
 
 ### **1.1 Data Collection**
 
@@ -263,7 +264,8 @@ graph LR
     df = pd.get_dummies(df, columns=['categorical_column'])
     ```
 
-<a id="2">\[2]\</a>Data Exploration & Visualization
+<a id="2">\[2]\</a>
+Data Exploration & Visualization
 
 ### **2.1 Data Exploration**
 
@@ -361,7 +363,8 @@ Pandas Profiling provides a quick way to perform an initial exploratory analysis
   profile.to_widgets()
   ```
 
-<a id="3">\[3]\</a>Data Preprocessing
+<a id="3">\[3]\</a>
+Data Preprocessing
 
 Data preprocessing is a crucial step in the data analysis process, as the quality of data and the usefulness of the dataset will determine the ability of models to find patterns.
 
@@ -470,7 +473,8 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 ```
 
-<a id="4">\[4]\</a>Model Training
+<a id="4">\[4]\</a>
+Model Training
 
 This step focuses on training machine learning models using the prepared data. The goal is to find the best algorithm that captures the underlying patterns in the data.
 
@@ -555,7 +559,8 @@ Overfitting occurs when a model captures noise in the training data and performs
 
 - **Pruning**: For decision trees, pruning can be used to remove parts of the tree that do not provide power to classify instances.
 
-<a id="5">\[5]\</a>Model Evaluation
+<a id="5">\[5]\</a>
+Model Evaluation
 
 Once a model is trained, it's vital to assess its performance on unseen data to ensure its generalization capability. Model evaluation provides insights into the quality of the model and areas for potential improvement.
 
@@ -623,7 +628,8 @@ When multiple models or versions of a model are trained, they need to be compare
 
 It's crucial to monitor for overfitting (where the model performs very well on the training data but poorly on the test data) or underfitting (where the model performs poorly on both training and test data). Techniques like cross-validation can help detect these issues.
 
-<a id="6">\[6]\</a>Model Deployment
+<a id="6">\[6]\</a>
+Model Deployment
 
 After training and evaluating a model, the next step is deploying it to a production environment where it can start taking in inputs and making predictions in real-time or on a scheduled basis. Model deployment is about making your model available to end-users or systems.
 
@@ -692,7 +698,8 @@ Having a rollback strategy is vital. If a newly deployed model version has unfor
 
 Models, especially when exposed as APIs, should be able to handle multiple requests and scale as demand grows. Cloud deployment options often come with auto-scaling features. For local deployments, tools like Kubernetes can help.
 
-<a id="7">\[7]\</a>Post-deployment Monitoring & Maintenance
+<a id="7">\[7]\</a>
+Post-deployment Monitoring & Maintenance
 
 Once a model is deployed, the work doesn't stop. It's essential to continuously monitor the model to ensure that it's performing as expected and to maintain its relevancy over time as data and requirements change.
 
