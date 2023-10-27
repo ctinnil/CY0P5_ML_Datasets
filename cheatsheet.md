@@ -12,7 +12,6 @@ graph LR
     F --> G[Model Deployment]
 ```
 
-
 ### **1. Data Collection & Cleaning**
 
 *Depending on the dataset and the specific problem, additional or different steps might be needed.*

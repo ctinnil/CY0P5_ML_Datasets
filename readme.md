@@ -40,7 +40,12 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  ### 7. **CSE-CIC-IDS2018**:
  The colaboorative project between the Communications Security Establishment (CSE) and the Canadian Institute for Cybersecurity (CIC) resulted in a comprehensive dataset, describing various attack scenarios, such as DoS, DDoS, and port scanning, that can be used for machine learning intrusion detection system (IDS) research.
  - [CSE-CIC-IDS2018 Dataset](https://www.unb.ca/cic/datasets/ids-2018.html)
- - [AWs S3](s3://cse-cic-ids2018/)
+ - [AWs S3](https://aws.amazon.com/cli/)
+ 
+ ```AWS
+ aws s3 sync s3://cse-cic-ids2018/dir/ ./localdir
+ ```
+ 
  - [Kaggle version](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)
 
   ### 8. **CIDDS-001 & CIDDS-002**:
