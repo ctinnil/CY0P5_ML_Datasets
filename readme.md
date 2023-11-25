@@ -1,3 +1,10 @@
+![logo](https://github.com/ctinnil/CY0P5_ML_Datasets/assets/69745175/cd1bab09-1c54-44ea-9c68-76066ff2aac6)
+
+<p align="center">
+  <a href="https://zenodo.org/doi/10.5281/zenodo.10206129"><img src="https://zenodo.org/badge/351356478.svg" alt="DOI"></a>
+  <a href="http://dx.doi.org/10.5281/zenodo.8275233"><img src="https://img.shields.io/badge/DOI-10.1109%2FWorldS451998.2021.9514062-blue" alt="DOI"></a>
+</p>
+
 *Before delving into the primary datasets, it's essential to grasp the significance of cybersecurity and why these datasets play a critical role in safeguarding our digital realm. In our interconnected world, cybersecurity threats pose substantial risks to individuals, enterprises, and governments. With the surge in cybercrimes, ranging from data breaches to cyberattacks, having access to trustworthy and current cybersecurity datasets is paramount. These datasets empower us to detect and thwart potential threats effectively.*
 
 # Main datasets used in cybersecurity 
