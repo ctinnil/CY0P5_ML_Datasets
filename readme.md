@@ -37,7 +37,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [Shortcut to downloads](http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/)
  - [Kaggle version](https://www.kaggle.com/datasets/cicdataset/cicids2017)
 
- ### 7. **CSE-CIC-IDS2018**:
+### 7. **CSE-CIC-IDS2018**:
  The colaboorative project between the Communications Security Establishment (CSE) and the Canadian Institute for Cybersecurity (CIC) resulted in a comprehensive dataset, describing various attack scenarios, such as DoS, DDoS, and port scanning, that can be used for machine learning intrusion detection system (IDS) research.
  - [CSE-CIC-IDS2018 Dataset](https://www.unb.ca/cic/datasets/ids-2018.html)
  - [AWs S3](https://aws.amazon.com/cli/)
@@ -48,7 +48,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  
  - [Kaggle version](https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv)
 
-  ### 8. **CIDDS-001 & CIDDS-002**:
+### 8. **CIDDS-001 & CIDDS-002**:
  The colaboorative project between the Communications Security Establishment (CSE) and the Canadian Institute for Cybersecurity (CIC) resulted in a comprehensive dataset, describing various attack scenarios, such as DoS, DDoS, and port scanning, that can be used for machine learning intrusion detection system (IDS) research.
  - [CIDDS - COBURG INTRUSION DETECTION DATA SETS](https://www.hs-coburg.de/forschung/forschungsprojekte-oeffentlich/informationstechnologie/cidds-coburg-intrusion-detection-data-sets.html)
  - [Github](https://github.com/markusring/CIDDS)
@@ -57,17 +57,34 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [CIDDS-001 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds001)
  - [CIDDS-002 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds002)
  
- ### 9. **Kyoto2026+**:
+### 9. **Kyoto2026+**:
  The Kyoto (Kyoto 2006+) dataset, also known as the Kyoto University Honeypot Dataset, is a collection of network traffic data specifically designed for cybersecurity research, with a focus on honeypot-based intrusion detection and analysis.
  - [Kyoto 2006+ Dataset](https://datasetsearch.research.google.com/search?ref=TDJjdk1URnFibDg0TTNCNmVRPT0%3D&query=Kyoto%202006%2B&docid=L2cvMTFqbl84M3B6eQ%3D%3D)
  - [Kyoto Data](https://www.takakura.com/Kyoto_data/)
  - [Statistical analysis of honeypot data and building of Kyoto 2006+ dataset for NIDS evaluation](https://dl.acm.org/doi/10.1145/1978672.1978676)
 
- ### 8. **Hornet**:
+## Other datasets to be considered
+
+### 10. **Hornet**:
  The Hornet datasets consist of a collection of data sets created to explore the potential influence of geographic factors on the occurrence of network attacks. This data was gathered during April and May 2021 from eight identically configured honeypot servers strategically positioned in various regions spanning North America, Europe, and Asia.
  - [Hornet: Network Dataset of Geographically Placed Honeypots](https://www.stratosphereips.org/hornet-network-dataset-of-geographically-placed-honeypots)
  - [Downlaod Hornet 7 Dataset](https://data.mendeley.com/datasets/w6yskg3ffy/3)
  - [Downlaod Hornet 15 Dataset](https://data.mendeley.com/datasets/rry7bhc2f2/2)
+
+### 11. **UNSW-NB15**:
+ The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
+ - [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+
+### 12. **MAWILab**:
+ The MAWILab dataset consists of real-world traffic data collected from the MAWI (Monitoring and Analysis of Internet Wide-Area Network Traffic) project. It is used for anomaly detection and network traffic analysis.
+ - [MAWILab Dataset Main](http://www.fukuda-lab.org/mawilab/data.html)
+ - [MAWILab v1.1](http://www.fukuda-lab.org/mawilab/v1.1/index.html)
+ - [MAWILab v1.0](http://www.fukuda-lab.org/mawilab/v1.0/index.html)
+
+### 13. **Microsoft Malware Classification Challenge (BIG 2015)**:
+ This dataset is used for malware classification tasks. It contains a large collection of files, each labeled as benign or malicious, making it suitable for machine learning-based malware detection.
+ - [Microsoft Malware Classification Challenge](https://www.kaggle.com/c/malware-classification)
+ - [Microsoft Malware Classification Challenge from Github](https://github.com/czs108/Microsoft-Malware-Classification)
 
 ## Download 
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
@@ -81,29 +98,7 @@ wget --mirror -np -nH --cut-dirs=1 -P Kyoto2006+ -N -r -A '*' https://www.takaku
 # `-N`: Download only  files that are newer.
  ```
 
-
-y. **UNSW-NB15**:
- - Description: The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
- - Link: [UNSW-NB15 Dataset](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/)
-
-
-
-5. **MAWILab**:
- - Description: The MAWILab dataset consists of real-world traffic data collected from the MAWI (Monitoring and Analysis of Internet Wide-Area Network Traffic) project. It is used for anomaly detection and network traffic analysis.
- - Link: [MAWILab Dataset](http://www.fukuda-lab.org/mawilab/)
-
-
-
-7. **Microsoft Malware Classification Challenge (BIG 2015)**:
- - Description: This dataset is used for malware classification tasks. It contains a large collection of files, each labeled as benign or malicious, making it suitable for machine learning-based malware detection.
- - Link: [Microsoft Malware Classification Challenge](https://www.kaggle.com/c/malware-classification/data)
-
-8. **VirusTotal Dataset**:
- - Description: VirusTotal provides a dataset containing various information about files, URLs, and domains. It's useful for research related to malware analysis and threat intelligence.
- - Link: [VirusTotal Public API](https://developers.virustotal.com/reference#getting-started)
-
 *Please note that the availability and specifics of these datasets may change over time, and it's important to review the dataset documentation and terms of use before using them for research or analysis.*
-
 
 # Intrusion Detection System (IDS) Public Datasets Benchmarking
 
