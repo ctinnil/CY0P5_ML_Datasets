@@ -127,11 +127,45 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
 
 ### 17. **The UGR'16 dataset**:
  This dataset is constructed using real traffic and contemporary attacks, sourced from various NetFlow v9 collectors positioned strategically within the network of a Spanish ISP. It consists of two distinct sets of data, each pre-divided on a weekly basis.
- - [The UGR'16 Dataset](https://nesg.ugr.es/nesg-ugr16/)
+ - [UGR'16](https://nesg.ugr.es/nesg-ugr16/)
 
-### 18. **The UGR'16 dataset**:
- This dataset is constructed using real traffic and contemporary attacks, sourced from various NetFlow v9 collectors positioned strategically within the network of a Spanish ISP. It consists of two distinct sets of data, each pre-divided on a weekly basis.
- - [The UGR'16 Dataset](https://nesg.ugr.es/nesg-ugr16/)
+### 18. **The Contagio Mobile Mini-Dump dataset**:
+ The Contagio Mobile Mini-Dump is an extensive collection of mobile malware samples, essential for cybersecurity research and the development of mobile security solutions. It provides a diverse range of real-world malware examples, aiding in understanding and combating mobile threats.
+ - [Contagio Mobile Mini-Dump](http://contagiominidump.blogspot.com)
+
+### 19. **VAST Challenge datasets**:
+ The MC2 - Computer Networking Operations, part of the VAST Challenge 2011, presents a scenario involving detailed analysis of intricate computer network operations. Participants are tasked with sifting through extensive data to identify unusual patterns, potential cyber threats, and anomalies in network behavior. This challenge simulates a real-world situation the dataset may be used for developing purposes.
+ - [MC2 - Computer Networking Operations](https://visualdata.wustl.edu/varepository/VAST%20Challenge%202011/challenges/MC2%20-%20Computer%20Networking%20Operations/)
+ - [Visual Analytics Benchmark Repository](https://visualdata.wustl.edu/varepository/benchmarks.php#VAST2011)
+
+### 20. **NIST Software Assurance Reference Dataset (SARD)s**:
+ The Software Assurance Reference Dataset (SARD) is a growing collection of test programs with documented weaknesses. Test cases vary from small synthetic programs to large applications. The programs are in C, C++, Java, PHP, and C#, and cover over 150 classes of weaknesses.
+ - [SARD](https://samate.nist.gov/SARD/)
+
+### 21. **Draper VDISC Dataset - Vulnerability Detection in Source Codes**:
+ The Draper dataset consists of the source code of 1.27 million functions mined from open source software, labelled by static analysis for potential vulnerabilities. This dataset can be used for developing vulnerability prediction models.
+ - [Draper VDISC Dataset](https://osf.io/d45bw/)
+
+### 22. **DEFCON Challenge Datasets**:
+ DEFCON regularly releases cybersecurity-focused challenge datasets, engaging participants with diverse machine learning security problems. Their DEFCON30 event, hosted by the AI Village, exemplified this with a unique competition on Kaggle.
+ - [DEFCON30](https://www.kaggle.com/code/pietromaldini1/lb-0-842-ctf-defcon)
+ - DEFCON8
+ - DEFCON10
+ - DEFCON11
+
+### 23. **CDX 2009**:
+ The CDX 2009 dataset, provided by the Cyber Research Center at West Point, captures network traffic and system logs from the 2009 Cyber Defense Exercise. It's a valuable resource for cybersecurity research, offering real-world data for studying network attacks, defense strategies, and system vulnerabilities. This dataset is especially useful for developing and testing intrusion detection systems and other security tools.
+ - [CDX 2009](https://www.westpoint.edu/centers-and-research/cyber-research-center/data-sets)
+
+### 23. **The Twente Labeled Data Set For Flow-based Intrusion Detection**:
+ The dataset from the University of Twente focuses on flow-based intrusion detection in high-speed networks (1-10 Gbps). It was built on a honeypot connected directly to the Internet, ensuring data relevance. This dataset is ideal for tuning, training, and evaluating intrusion detection systems.
+ - [Twente Dataset](https://research.utwente.nl/en/publications/a-labeled-data-set-for-flow-based-intrusion-detection)
+
+## Online resources for dataset creation 
+[VirusTotal - Malware samples](https://www.virustotal.com/)
+[Phishtank - Phishing samples](https://phishtank.org/developer_info.php)
+[Kaggle - Challenges and public datasets](https://www.kaggle.com)
+
 
 ## Download recommendation
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
