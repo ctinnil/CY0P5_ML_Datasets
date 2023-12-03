@@ -27,6 +27,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [NSL-KDD Dataset](http://www.unb.ca/cic/datasets/nsl.html)
  - [Shortcut to downloads](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/NSL-KDD.zip)
  - [Kaggle version](https://www.kaggle.com/datasets/hassan06/nslkdd)
+ - [More from the Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/index.html)
 
 ### 4. **CTU-13**:
  The CTU-13 dataset is particularly notable for its comprehensive representation of botnet traffic, allowing researchers to analyze and develop detection methods for botnet-related activities. CTU-13 features traffic data related to a total of 7 distinct botnets, featuring a mix of both real-world botnet and user-simulated traffic in a university-like environment.
@@ -37,6 +38,13 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
  - [ISCXIDS2012 Dataset](https://www.unb.ca/cic/datasets/ids.html)
  - [Shortcut to downloads](http://205.174.165.80/CICDataset/ISCX-IDS-2012/Dataset/)
+ - More datasets from ISCX
+   + [ISCXVPN2016](https://www.unb.ca/cic/datasets/vpn.html)
+   + [ISCXTor2016](https://www.unb.ca/cic/datasets/tor.html)
+   + [ISCX-URL2016](https://www.unb.ca/cic/datasets/url-2016.html)
+   + [ISCX Android Botnet dataset 2015](https://www.unb.ca/cic/datasets/android-botnet.html)
+   + [ISCX Botnet dataset 2014](https://www.unb.ca/cic/datasets/botnet.html)
+   + [ISCX Android Validation dataset 2014](https://www.unb.ca/cic/datasets/android-validation.html)
 
 ### 6. **CIC-IDS2017**:
  The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data specific to machine learning for intrusion detection system (IDS) research, describing various attack scenarios, such as DoS, DDoS, and port scanning.
@@ -93,7 +101,23 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [Microsoft Malware Classification Challenge](https://www.kaggle.com/c/malware-classification)
  - [Microsoft Malware Classification Challenge from Github](https://github.com/czs108/Microsoft-Malware-Classification)
 
-## Download 
+### 14. **AWID (Aegean WiFi Intrusion Dataset)**:
+ The AWID project aims to offer robust tools, methodologies, and datasets to help researchers create advanced security solutions for present and future wireless networks. The AWID2 dataset includes a large packet set (F) and a smaller one (R), focusing on WEP-based infrastructure with over 150 different attributes. AWID3 targets WPA2 Enterprise, 802.11w, and Wi-Fi 5, featuring multi-layer and contemporary attacks like Krack and Kr00k.
+ - [The AWID2 Dataset](https://icsdweb.aegean.gr/awid/awid2)
+ - [The AWID3 Dataset](https://icsdweb.aegean.gr/awid/awid3)
+ - [Download request form](https://icsdweb.aegean.gr/awid/download-dataset)
+
+### 15. **The H23Q dataset**:
+ The H23Q dataset is a extensive, labeled 802.3 corpus features traces of ten different attacks targeting HTTP/2, HTTP/3, and QUIC services, including modern attacks specific to HTTP/3. The dataset, which is 30 GB in size, is accessible in both pcap and CSV formats.
+ - [The H23Q Dataset](https://icsdweb.aegean.gr/awid/other-datasets/H23Q)
+ - [Download request form](https://icsdweb.aegean.gr/awid/download-dataset)
+
+### 16. **Malware Traffic Analysis Knowledge Dataset 2019 (MTA-KDD-19)**:
+ The MTA-KDD'19 is a curated dataset designed for training and evaluating machine learning algorithms in malware traffic analysis. It was developed from extensive online network traffic databases, emphasizing relevant features while minimizing size and noise through cleaning and preprocessing. This dataset is versatile, not tailored to any particular application, and can be automatically updated to remain current.
+ - [MTA-KDD-19](https://paperswithcode.com/dataset/mta-kdd-19)
+ - [Kaggle version](https://www.kaggle.com/datasets/mathurinache/mtakdd19)
+
+## Download recommendation
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
 
  ```bash
@@ -141,7 +165,7 @@ The following Jupyter notebooks will provide a detailed walkthrough of the exper
 6. [CSE-CIC-IDS2018-BM](benchmarking_IDS_datasets/1.6-2.6_Benchmarking_existing_IDS_datasets_CSE_CIC_IDS2018_v2_0.ipynb)
 7. [CIDDS-001-BM](benchmarking_IDS_datasets/1.7-2.7_Benchmarking_existing_IDS_datasets_CIDDS_001_v2_0.ipynb)
 8. [CIDDS-002-BM](benchmarking_IDS_datasets/1.8-2.8_Benchmarking_existing_IDS_datasets_CIDDS_002_v1_0.ipynb)
-9. [Kyoto2006+-BM](benchmarking_IDS_datasets/1.9-2.9_Benchmarking_existing_IDS_datasets_Kyoto2006+_v1.0.ipynb)
+9. [Kyoto2006+-BM](benchmarking_IDS_datasets/1.9.-2.9_Benchmarking_existing_IDS_datasets_Kyoto2015_1%v2_0.ipynb)
 
 The results are also saved under the pickle files mentioned below:
 1. [KDD99-BM](benchmarking_results/kdd_results.pkl)
@@ -152,4 +176,4 @@ The results are also saved under the pickle files mentioned below:
 6. [CSE-CIC-IDS2018-BM](benchmarking_results/csecicids2018_results.pkl)
 7. [CIDDS-001-BM](benchmarking_results/cidds001_results.pkl)
 8. [CIDDS-002-BM](benchmarking_results/cidds002_results.pkl)
-9. [Kyoto2006+-BM](benchmarking_results/kyoto_results.pkl)
+9. [Kyoto2006+-BM](benchmarking_results/kyoto2015_1%25_results.pkl)
