@@ -40,7 +40,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
    + [MALWARE ON IOT CAPTURES](https://www.stratosphereips.org/malware-iot-datasets)
    + [Aposemat IoT-23](https://www.stratosphereips.org/datasets-iot23)
    + [Android Mischief Dataset](https://www.stratosphereips.org/android-mischief-dataset)
-   + [Hornet: Network Dataset of Geographically Placed Honeypots](#10.-**Hornet**:)
+   + [Hornet: Network Dataset of Geographically Placed Honeypots](#10.-Hornet:)
 
 ### 5. **ISCXIDS2012**:
  The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
