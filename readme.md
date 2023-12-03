@@ -64,7 +64,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [CIDDS-001 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds001)
  - [CIDDS-002 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds002)
  
-### 9. **Kyoto2026+**:
+### 9. **Kyoto2006+**:
  The Kyoto (Kyoto 2006+) dataset, also known as the Kyoto University Honeypot Dataset, is a collection of network traffic data specifically designed for cybersecurity research, with a focus on honeypot-based intrusion detection and analysis.
  - [Kyoto 2006+ Dataset](https://datasetsearch.research.google.com/search?ref=TDJjdk1URnFibDg0TTNCNmVRPT0%3D&query=Kyoto%202006%2B&docid=L2cvMTFqbl84M3B6eQ%3D%3D)
  - [Kyoto Data](https://www.takakura.com/Kyoto_data/)
@@ -141,7 +141,7 @@ The following Jupyter notebooks will provide a detailed walkthrough of the exper
 6. [CSE-CIC-IDS2018-BM](benchmarking_IDS_datasets/1.6-2.6_Benchmarking_existing_IDS_datasets_CSE_CIC_IDS2018_v2_0.ipynb)
 7. [CIDDS-001-BM](benchmarking_IDS_datasets/1.7-2.7_Benchmarking_existing_IDS_datasets_CIDDS_001_v2_0.ipynb)
 8. [CIDDS-002-BM](benchmarking_IDS_datasets/1.8-2.8_Benchmarking_existing_IDS_datasets_CIDDS_002_v1_0.ipynb)
-9. [Kyoto2026+-BM](benchmarking_IDS_datasets/1.9-2.9_Benchmarking_existing_IDS_datasets_Kyoto2026+_v1.0.ipynb)
+9. [Kyoto2006+-BM](benchmarking_IDS_datasets/1.9-2.9_Benchmarking_existing_IDS_datasets_Kyoto2006+_v1.0.ipynb)
 
 The results are also saved under the pickle files mentioned below:
 1. [KDD99-BM](benchmarking_results/kdd_results.pkl)
@@ -152,4 +152,4 @@ The results are also saved under the pickle files mentioned below:
 6. [CSE-CIC-IDS2018-BM](benchmarking_results/csecicids2018_results.pkl)
 7. [CIDDS-001-BM](benchmarking_results/cidds001_results.pkl)
 8. [CIDDS-002-BM](benchmarking_results/cidds002_results.pkl)
-9. [Kyoto2026+-BM](benchmarking_results/kyoto_results.pkl)
+9. [Kyoto2006+-BM](benchmarking_results/kyoto_results.pkl)
