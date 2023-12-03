@@ -182,6 +182,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
 [VirusTotal - Malware samples](https://www.virustotal.com/)
 [Phishtank - Phishing samples](https://phishtank.org/developer_info.php)
 [Kaggle - Challenges and public datasets](https://www.kaggle.com)
+[Scispace - Find research papers relevant to your study](https://typeset.io)
 
 ## Download recommendation
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
