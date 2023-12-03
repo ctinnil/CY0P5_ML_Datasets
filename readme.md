@@ -157,15 +157,30 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  The CDX 2009 dataset, provided by the Cyber Research Center at West Point, captures network traffic and system logs from the 2009 Cyber Defense Exercise. It's a valuable resource for cybersecurity research, offering real-world data for studying network attacks, defense strategies, and system vulnerabilities. This dataset is especially useful for developing and testing intrusion detection systems and other security tools.
  - [CDX 2009](https://www.westpoint.edu/centers-and-research/cyber-research-center/data-sets)
 
-### 23. **The Twente Labeled Data Set For Flow-based Intrusion Detection**:
+### 24. **The Twente Labeled Data Set For Flow-based Intrusion Detection**:
  The dataset from the University of Twente focuses on flow-based intrusion detection in high-speed networks (1-10 Gbps). It was built on a honeypot connected directly to the Internet, ensuring data relevance. This dataset is ideal for tuning, training, and evaluating intrusion detection systems.
  - [Twente Dataset](https://research.utwente.nl/en/publications/a-labeled-data-set-for-flow-based-intrusion-detection)
+
+### 25. **ASNM-CDX-2009 Dataset**:
+ The ASNM-CDX-2009 dataset, part of the Advanced Security Network Metrics & CDX 2009 initiative, features ASNM features extracted from tcpdump captures of both malicious and legitimate TCP communications. It focuses on network services susceptible to buffer overflow attacks, providing a rich dataset for network traffic analysis.
+ - [ASNM-CDX-2009 Dataset](http://www.fit.vutbr.cz/~ihomoliak/asnm/ASNM-CDX-2009.html)
+
+### 26. **ADFA IDS Datasets**:
+ The ADFA IDS Datasets, available through UNSW Research, are tailored for system call-based Host Intrusion Detection Systems (HIDS) evaluation. These datasets encompass both Linux and Windows environments, providing a comprehensive resource for developing and assessing HIDS capabilities.
+ - [ADFA IDS Datasets](https://research.unsw.edu.au/projects/adfa-ids-datasets)
+
+### 27. **LBNL/ICSI Enterprise Tracing Project Dataset**:
+ This dataset consists of full-header network traffic from a medium-sized location, excluding payload. The dataset underwent extensive anonymization to eliminate any details that could reveal individual IP identities. Nevertheless, the LBNL consist of 100 hours of activity specifying the traces of packet header for identifying malicious traffic.
+ - [LBNL Dataset](https://www.icir.org/enterprise-tracing/download.html)
+
+### 28. **University of Massachusetts Datasets**:
+ The UMass Network Datasets, available on the UMass Trace Repository website, are a comprehensive collection of network-related data, designed for a wide array of research applications. These datasets include detailed network traffic traces from a variety of sources and settings, offering valuable insights for studies in network security, performance analysis, and protocol development.
+ - [UMass Network Datasets](https://traces.cs.umass.edu/index.php/Network/Network)
 
 ## Online resources for dataset creation 
 [VirusTotal - Malware samples](https://www.virustotal.com/)
 [Phishtank - Phishing samples](https://phishtank.org/developer_info.php)
 [Kaggle - Challenges and public datasets](https://www.kaggle.com)
-
 
 ## Download recommendation
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
