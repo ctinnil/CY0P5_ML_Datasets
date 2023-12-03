@@ -40,7 +40,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
    + [MALWARE ON IOT CAPTURES](https://www.stratosphereips.org/malware-iot-datasets)
    + [Aposemat IoT-23](https://www.stratosphereips.org/datasets-iot23)
    + [Android Mischief Dataset](https://www.stratosphereips.org/android-mischief-dataset)
-   + [Hornet: Network Dataset of Geographically Placed Honeypots](#hornet)
+   + [Hornet: Network Dataset of Geographically Placed Honeypots](#10-hornet)
 
 ### 5. **ISCXIDS2012**:
  The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
@@ -88,13 +88,11 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
 
 ## Other datasets to be considered
 
-<a name="hornet"> <\a>
 ### 10. **Hornet**:
  The Hornet datasets consist of a collection of data sets created to explore the potential influence of geographic factors on the occurrence of network attacks. This data was gathered during April and May 2021 from eight identically configured honeypot servers strategically positioned in various regions spanning North America, Europe, and Asia.
  - [Hornet: Network Dataset of Geographically Placed Honeypots](https://www.stratosphereips.org/hornet-network-dataset-of-geographically-placed-honeypots)
  - [Downlaod Hornet 7 Dataset](https://data.mendeley.com/datasets/w6yskg3ffy/3)
  - [Downlaod Hornet 15 Dataset](https://data.mendeley.com/datasets/rry7bhc2f2/2)
-
 
 ### 11. **UNSW-NB15**:
  The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
