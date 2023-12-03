@@ -33,6 +33,14 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  The CTU-13 dataset is particularly notable for its comprehensive representation of botnet traffic, allowing researchers to analyze and develop detection methods for botnet-related activities. CTU-13 features traffic data related to a total of 7 distinct botnets, featuring a mix of both real-world botnet and user-simulated traffic in a university-like environment.
  - [CTU-13 Dataset](https://www.stratosphereips.org/datasets-ctu13)
  - [Kaggle version](https://www.kaggle.com/datasets/dhoogla/ctu13)
+ - More from Stratosphere IPS Datasets
+   + [MALWARE CAPTURES](https://www.stratosphereips.org/datasets-malware)
+   + [NORMAL CAPTURES](https://www.stratosphereips.org/datasets-normal)
+   + [MIXED CAPTURES](https://www.stratosphereips.org/datasets-mixed)
+   + [MALWARE ON IOT CAPTURES](https://www.stratosphereips.org/malware-iot-datasets)
+   + [Aposemat IoT-23](https://www.stratosphereips.org/datasets-iot23)
+   + [Android Mischief Dataset](https://www.stratosphereips.org/android-mischief-dataset)
+   + [Hornet: Network Dataset of Geographically Placed Honeypots](#10.-**Hornet**:)
 
 ### 5. **ISCXIDS2012**:
  The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
@@ -116,6 +124,14 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  The MTA-KDD'19 is a curated dataset designed for training and evaluating machine learning algorithms in malware traffic analysis. It was developed from extensive online network traffic databases, emphasizing relevant features while minimizing size and noise through cleaning and preprocessing. This dataset is versatile, not tailored to any particular application, and can be automatically updated to remain current.
  - [MTA-KDD-19](https://paperswithcode.com/dataset/mta-kdd-19)
  - [Kaggle version](https://www.kaggle.com/datasets/mathurinache/mtakdd19)
+
+### 17. **The UGR'16 dataset**:
+ This dataset is constructed using real traffic and contemporary attacks, sourced from various NetFlow v9 collectors positioned strategically within the network of a Spanish ISP. It consists of two distinct sets of data, each pre-divided on a weekly basis.
+ - [The UGR'16 Dataset](https://nesg.ugr.es/nesg-ugr16/)
+
+### 18. **The UGR'16 dataset**:
+ This dataset is constructed using real traffic and contemporary attacks, sourced from various NetFlow v9 collectors positioned strategically within the network of a Spanish ISP. It consists of two distinct sets of data, each pre-divided on a weekly basis.
+ - [The UGR'16 Dataset](https://nesg.ugr.es/nesg-ugr16/)
 
 ## Download recommendation
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
