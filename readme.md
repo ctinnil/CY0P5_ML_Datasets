@@ -27,16 +27,32 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [NSL-KDD Dataset](http://www.unb.ca/cic/datasets/nsl.html)
  - [Shortcut to downloads](http://205.174.165.80/CICDataset/NSL-KDD/Dataset/NSL-KDD.zip)
  - [Kaggle version](https://www.kaggle.com/datasets/hassan06/nslkdd)
+ - [More from the Canadian Institute for Cybersecurity](https://www.unb.ca/cic/datasets/index.html)
 
 ### 4. **CTU-13**:
  The CTU-13 dataset is particularly notable for its comprehensive representation of botnet traffic, allowing researchers to analyze and develop detection methods for botnet-related activities. CTU-13 features traffic data related to a total of 7 distinct botnets, featuring a mix of both real-world botnet and user-simulated traffic in a university-like environment.
  - [CTU-13 Dataset](https://www.stratosphereips.org/datasets-ctu13)
  - [Kaggle version](https://www.kaggle.com/datasets/dhoogla/ctu13)
+ - More from Stratosphere IPS Datasets
+   + [MALWARE CAPTURES](https://www.stratosphereips.org/datasets-malware)
+   + [NORMAL CAPTURES](https://www.stratosphereips.org/datasets-normal)
+   + [MIXED CAPTURES](https://www.stratosphereips.org/datasets-mixed)
+   + [MALWARE ON IOT CAPTURES](https://www.stratosphereips.org/malware-iot-datasets)
+   + [Aposemat IoT-23](https://www.stratosphereips.org/datasets-iot23)
+   + [Android Mischief Dataset](https://www.stratosphereips.org/android-mischief-dataset)
+   + [Hornet: Network Dataset of Geographically Placed Honeypots](#10-hornet)
 
 ### 5. **ISCXIDS2012**:
  The ISCXIDS2012 dataset consists of network traffic data, including both normal network traffic and various types of simulated and real-world cyberattacks.
  - [ISCXIDS2012 Dataset](https://www.unb.ca/cic/datasets/ids.html)
  - [Shortcut to downloads](http://205.174.165.80/CICDataset/ISCX-IDS-2012/Dataset/)
+ - More datasets from ISCX
+   + [ISCXVPN2016](https://www.unb.ca/cic/datasets/vpn.html)
+   + [ISCXTor2016](https://www.unb.ca/cic/datasets/tor.html)
+   + [ISCX-URL2016](https://www.unb.ca/cic/datasets/url-2016.html)
+   + [ISCX Android Botnet dataset 2015](https://www.unb.ca/cic/datasets/android-botnet.html)
+   + [ISCX Botnet dataset 2014](https://www.unb.ca/cic/datasets/botnet.html)
+   + [ISCX Android Validation dataset 2014](https://www.unb.ca/cic/datasets/android-validation.html)
 
 ### 6. **CIC-IDS2017**:
  The Canadian Institute for Cybersecurity Intrusion Detection Systems (CICIDS2017) dataset contains network traffic data specific to machine learning for intrusion detection system (IDS) research, describing various attack scenarios, such as DoS, DDoS, and port scanning.
@@ -64,7 +80,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [CIDDS-001 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds001)
  - [CIDDS-002 Kaggle version](https://www.kaggle.com/datasets/dhoogla/cidds002)
  
-### 9. **Kyoto2026+**:
+### 9. **Kyoto2006+**:
  The Kyoto (Kyoto 2006+) dataset, also known as the Kyoto University Honeypot Dataset, is a collection of network traffic data specifically designed for cybersecurity research, with a focus on honeypot-based intrusion detection and analysis.
  - [Kyoto 2006+ Dataset](https://datasetsearch.research.google.com/search?ref=TDJjdk1URnFibDg0TTNCNmVRPT0%3D&query=Kyoto%202006%2B&docid=L2cvMTFqbl84M3B6eQ%3D%3D)
  - [Kyoto Data](https://www.takakura.com/Kyoto_data/)
@@ -77,6 +93,7 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [Hornet: Network Dataset of Geographically Placed Honeypots](https://www.stratosphereips.org/hornet-network-dataset-of-geographically-placed-honeypots)
  - [Downlaod Hornet 7 Dataset](https://data.mendeley.com/datasets/w6yskg3ffy/3)
  - [Downlaod Hornet 15 Dataset](https://data.mendeley.com/datasets/rry7bhc2f2/2)
+ - [Downlaod Hornet 40 Dataset](https://data.mendeley.com/datasets/tcfzkbpw46)
 
 ### 11. **UNSW-NB15**:
  The UNSW-NB15 dataset is another network intrusion detection dataset containing diverse network traffic data. It includes normal traffic and a wide range of attacks, making it suitable for evaluating intrusion detection systems.
@@ -93,7 +110,84 @@ The cybersecurity field is vast, encompassing a wide range of topics and challen
  - [Microsoft Malware Classification Challenge](https://www.kaggle.com/c/malware-classification)
  - [Microsoft Malware Classification Challenge from Github](https://github.com/czs108/Microsoft-Malware-Classification)
 
-## Download 
+### 14. **AWID (Aegean WiFi Intrusion Dataset)**:
+ The AWID project aims to offer robust tools, methodologies, and datasets to help researchers create advanced security solutions for present and future wireless networks. The AWID2 dataset includes a large packet set (F) and a smaller one (R), focusing on WEP-based infrastructure with over 150 different attributes. AWID3 targets WPA2 Enterprise, 802.11w, and Wi-Fi 5, featuring multi-layer and contemporary attacks like Krack and Kr00k.
+ - [The AWID2 Dataset](https://icsdweb.aegean.gr/awid/awid2)
+ - [The AWID3 Dataset](https://icsdweb.aegean.gr/awid/awid3)
+ - [Download request form](https://icsdweb.aegean.gr/awid/download-dataset)
+
+### 15. **The H23Q dataset**:
+ The H23Q dataset is a extensive, labeled 802.3 corpus features traces of ten different attacks targeting HTTP/2, HTTP/3, and QUIC services, including modern attacks specific to HTTP/3. The dataset, which is 30 GB in size, is accessible in both pcap and CSV formats.
+ - [The H23Q Dataset](https://icsdweb.aegean.gr/awid/other-datasets/H23Q)
+ - [Download request form](https://icsdweb.aegean.gr/awid/download-dataset)
+
+### 16. **Malware Traffic Analysis Knowledge Dataset 2019 (MTA-KDD-19)**:
+ The MTA-KDD'19 is a curated dataset designed for training and evaluating machine learning algorithms in malware traffic analysis. It was developed from extensive online network traffic databases, emphasizing relevant features while minimizing size and noise through cleaning and preprocessing. This dataset is versatile, not tailored to any particular application, and can be automatically updated to remain current.
+ - [MTA-KDD-19](https://paperswithcode.com/dataset/mta-kdd-19)
+ - [Kaggle version](https://www.kaggle.com/datasets/mathurinache/mtakdd19)
+
+### 17. **The UGR'16 dataset**:
+ This dataset is constructed using real traffic and contemporary attacks, sourced from various NetFlow v9 collectors positioned strategically within the network of a Spanish ISP. It consists of two distinct sets of data, each pre-divided on a weekly basis.
+ - [UGR'16](https://nesg.ugr.es/nesg-ugr16/)
+
+### 18. **The Contagio Mobile Mini-Dump dataset**:
+ The Contagio Mobile Mini-Dump is an extensive collection of mobile malware samples, essential for cybersecurity research and the development of mobile security solutions. It provides a diverse range of real-world malware examples, aiding in understanding and combating mobile threats.
+ - [Contagio Mobile Mini-Dump](http://contagiominidump.blogspot.com)
+
+### 19. **VAST Challenge datasets**:
+ The MC2 - Computer Networking Operations, part of the VAST Challenge 2011, presents a scenario involving detailed analysis of intricate computer network operations. Participants are tasked with sifting through extensive data to identify unusual patterns, potential cyber threats, and anomalies in network behavior. This challenge simulates a real-world situation the dataset may be used for developing purposes.
+ - [MC2 - Computer Networking Operations](https://visualdata.wustl.edu/varepository/VAST%20Challenge%202011/challenges/MC2%20-%20Computer%20Networking%20Operations/)
+ - [Visual Analytics Benchmark Repository](https://visualdata.wustl.edu/varepository/benchmarks.php#VAST2011)
+
+### 20. **NIST Software Assurance Reference Dataset (SARD)s**:
+ The Software Assurance Reference Dataset (SARD) is a growing collection of test programs with documented weaknesses. Test cases vary from small synthetic programs to large applications. The programs are in C, C++, Java, PHP, and C#, and cover over 150 classes of weaknesses.
+ - [SARD](https://samate.nist.gov/SARD/)
+
+### 21. **Draper VDISC Dataset - Vulnerability Detection in Source Codes**:
+ The Draper dataset consists of the source code of 1.27 million functions mined from open source software, labelled by static analysis for potential vulnerabilities. This dataset can be used for developing vulnerability prediction models.
+ - [Draper VDISC Dataset](https://osf.io/d45bw/)
+
+### 22. **DEFCON Challenge Datasets**:
+ DEFCON regularly releases cybersecurity-focused challenge datasets, engaging participants with diverse machine learning security problems. Their DEFCON30 event, hosted by the AI Village, exemplified this with a unique competition on Kaggle.
+ - [DEFCON30](https://www.kaggle.com/code/pietromaldini1/lb-0-842-ctf-defcon)
+ - DEFCON8
+ - DEFCON10
+ - DEFCON11
+
+### 23. **CDX 2009**:
+ The CDX 2009 dataset, provided by the Cyber Research Center at West Point, captures network traffic and system logs from the 2009 Cyber Defense Exercise. It's a valuable resource for cybersecurity research, offering real-world data for studying network attacks, defense strategies, and system vulnerabilities. This dataset is especially useful for developing and testing intrusion detection systems and other security tools.
+ - [CDX 2009](https://www.westpoint.edu/centers-and-research/cyber-research-center/data-sets)
+
+### 24. **The Twente Labeled Data Set For Flow-based Intrusion Detection**:
+ The dataset from the University of Twente focuses on flow-based intrusion detection in high-speed networks (1-10 Gbps). It was built on a honeypot connected directly to the Internet, ensuring data relevance. This dataset is ideal for tuning, training, and evaluating intrusion detection systems.
+ - [Twente Dataset](https://research.utwente.nl/en/publications/a-labeled-data-set-for-flow-based-intrusion-detection)
+
+### 25. **ASNM-CDX-2009 Dataset**:
+ The ASNM-CDX-2009 dataset, part of the Advanced Security Network Metrics & CDX 2009 initiative, features ASNM features extracted from tcpdump captures of both malicious and legitimate TCP communications. It focuses on network services susceptible to buffer overflow attacks, providing a rich dataset for network traffic analysis.
+ - [ASNM-CDX-2009 Dataset](http://www.fit.vutbr.cz/~ihomoliak/asnm/ASNM-CDX-2009.html)
+
+### 26. **ADFA IDS Datasets**:
+ The ADFA IDS Datasets, available through UNSW Research, are tailored for system call-based Host Intrusion Detection Systems (HIDS) evaluation. These datasets encompass both Linux and Windows environments, providing a comprehensive resource for developing and assessing HIDS capabilities.
+ - [ADFA IDS Datasets](https://research.unsw.edu.au/projects/adfa-ids-datasets)
+
+### 27. **LBNL/ICSI Enterprise Tracing Project Dataset**:
+ This dataset consists of full-header network traffic from a medium-sized location, excluding payload. The dataset underwent extensive anonymization to eliminate any details that could reveal individual IP identities. Nevertheless, the LBNL consist of 100 hours of activity specifying the traces of packet header for identifying malicious traffic.
+ - [LBNL Dataset](https://www.icir.org/enterprise-tracing/download.html)
+
+### 28. **University of Massachusetts Datasets**:
+ The UMass Network Datasets, available on the UMass Trace Repository website, are a comprehensive collection of network-related data, designed for a wide array of research applications. These datasets include detailed network traffic traces from a variety of sources and settings, offering valuable insights for studies in network security, performance analysis, and protocol development.
+ - [UMass Network Datasets](https://traces.cs.umass.edu/index.php/Network/Network)
+
+![image](https://github.com/ctinnil/CY0P5_ML_Datasets/assets/69745175/0f7147c8-3fe7-4dda-ace4-18f07589f631)
+
+
+## Online resources for dataset creation 
+[VirusTotal - Malware samples](https://www.virustotal.com/)
+[Phishtank - Phishing samples](https://phishtank.org/developer_info.php)
+[Kaggle - Challenges and public datasets](https://www.kaggle.com)
+[Scispace - Find research papers relevant to your study](https://typeset.io)
+
+## Download recommendation
  To download the files mentioned above, you may access the provided URL directly, or just call the below command.
 
  ```bash
@@ -141,7 +235,7 @@ The following Jupyter notebooks will provide a detailed walkthrough of the exper
 6. [CSE-CIC-IDS2018-BM](benchmarking_IDS_datasets/1.6-2.6_Benchmarking_existing_IDS_datasets_CSE_CIC_IDS2018_v2_0.ipynb)
 7. [CIDDS-001-BM](benchmarking_IDS_datasets/1.7-2.7_Benchmarking_existing_IDS_datasets_CIDDS_001_v2_0.ipynb)
 8. [CIDDS-002-BM](benchmarking_IDS_datasets/1.8-2.8_Benchmarking_existing_IDS_datasets_CIDDS_002_v1_0.ipynb)
-9. [Kyoto2026+-BM](benchmarking_IDS_datasets/1.9-2.9_Benchmarking_existing_IDS_datasets_Kyoto2026+_v1.0.ipynb)
+9. [Kyoto2006+-BM](benchmarking_IDS_datasets/1.9.-2.9_Benchmarking_existing_IDS_datasets_Kyoto2015_1%v2_0.ipynb)
 
 The results are also saved under the pickle files mentioned below:
 1. [KDD99-BM](benchmarking_results/kdd_results.pkl)
@@ -152,4 +246,4 @@ The results are also saved under the pickle files mentioned below:
 6. [CSE-CIC-IDS2018-BM](benchmarking_results/csecicids2018_results.pkl)
 7. [CIDDS-001-BM](benchmarking_results/cidds001_results.pkl)
 8. [CIDDS-002-BM](benchmarking_results/cidds002_results.pkl)
-9. [Kyoto2026+-BM](benchmarking_results/kyoto_results.pkl)
+9. [Kyoto2006+-BM](benchmarking_results/kyoto2015_1%25_results.pkl)
