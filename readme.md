@@ -1,7 +1,7 @@
 ![logo](https://github.com/ctinnil/CY0P5_ML_Datasets/assets/69745175/cd1bab09-1c54-44ea-9c68-76066ff2aac6)
 
 <p align="center">
-  <a href="https://zenodo.org/doi/10.5281/zenodo.10206129"><img src="https://img.shields.io/badge/DOI-10.5281/zenodo.10206129-blue" alt="DOI"></a>
+  <a href="https://zenodo.org/doi/10.5281/zenodo.10206130"><img src="https://img.shields.io/badge/DOI-10.5281/zenodo.10206130-blue" alt="DOI"></a>
   <a href="http://dx.doi.org/10.5281/zenodo.8275233"><img src="https://img.shields.io/badge/DOI-10.5281/zenodo.8275232-blue" alt="DOI"></a>
 </p>
 
